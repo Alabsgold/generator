@@ -9,10 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <video autoplay muted loop id="bg-video">
-        <source src="images/background.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    <header>
         <div class="container">
             <div class="logo">
                 <img src="images/logo.png" alt="Alabs Fresh Logo">
@@ -34,12 +30,20 @@
     </header>
 
     <section class="hero">
-        <div class="container">
-            <h1>Authentic Afro Foods</h1>
-            <p>Premium quality ingredients straight from Africa's finest farms</p>
-            <a href="products.html" class="btn">Shop Now</a>
-        </div>
-    </section>
+    <div class="video-background">
+        <video autoplay muted loop playsinline>
+            <source src="videos/background.mp4" type="video/mp4">
+            <!-- Fallback image if video doesn't load -->
+            <img src="images/hero-bg.jpg" alt="Alabs Fresh background">
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+    <div class="hero-content">
+        <h1>Authentic Afro Foods</h1>
+        <p>Premium quality ingredients straight from Africa's finest farms</p>
+        <a href="products.html" class="btn">Shop Now</a>
+    </div>
+</section>
 
     <section class="featured-products">
         <div class="container">
