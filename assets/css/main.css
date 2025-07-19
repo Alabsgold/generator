@@ -1,0 +1,67 @@
+/* Global Styles */
+:root {
+    --black: #000000;
+    --soft-black: #1a1a1a;
+    --gold: #d4af37;
+    --white: #ffffff;
+    --light-gray: #cccccc;
+}
+
+body {
+    background-image: url('assets/backgrounds/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--black);
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navigation */
+.afro-nav {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.gold-text {
+    color: var(--gold);
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.gold-btn {
+    background-color: var(--gold);
+    color: var(--black);
+}
+
+/* Footer */
+.afro-footer {
+    background-color: var(--soft-black);
+    padding: 50px 0 20px;
+}
