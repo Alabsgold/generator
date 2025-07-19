@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Alabs Fresh</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Alabs Fresh Logo">
+                <span>ALABS FRESH</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li class="active"><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="recipes.html">RECIPES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Products</h1>
+            <p>Premium quality Afro foods and ingredients</p>
+        </div>
+    </section>
+
+    <section class="product-categories">
+        <div class="container">
+            <div class="category-filter">
+                <button class="active" data-category="all">All Products</button>
+                <button data-category="staples">Staples</button>
+                <button data-category="oils">Oils & Fats</button>
+                <button data-category="spices">Spices & Seasonings</button>
+                <button data-category="snacks">Snacks</button>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card" data-category="staples">
+                    <img src="images/product1.jpg" alt="Yam Flour">
+                    <h3>Premium Yam Flour</h3>
+                    <p>100% natural, stone-ground yam flour</p>
+                    <span class="price">$8.99</span>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="product-card" data-category="oils">
+                    <img src="images/product2.jpg" alt="Palm Oil">
+                    <h3>Cold-Pressed Palm Oil</h3>
+                    <p>Traditional red palm oil</p>
+                    <span class="price">$12.99</span>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="product-card" data-category="snacks">
+                    <img src="images/product3.jpg" alt="Plantain Chips">
+                    <h3>Plantain Chips</h3>
+                    <p>Crunchy, lightly salted</p>
+                    <span class="price">$5.99</span>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <!-- More products would be listed here -->
+            </div>
+        </div>
+    </section>
+
+    <section class="quality-promise">
+        <div class="container">
+            <h2>Our Quality Promise</h2>
+            <div class="promise-grid">
+                <div class="promise-item">
+                    <i class="fas fa-leaf"></i>
+                    <h3>100% Natural</h3>
+                    <p>No artificial additives or preservatives</p>
+                </div>
+                <div class="promise-item">
+                    <i class="fas fa-seedling"></i>
+                    <h3>Sustainably Sourced</h3>
+                    <p>From ethical farms and producers</p>
+                </div>
+                <div class="promise-item">
+                    <i class="fas fa-award"></i>
+                    <h3>Premium Quality</h3>
+                    <p>Rigorous quality control standards</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
